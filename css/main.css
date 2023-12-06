@@ -1,0 +1,45 @@
+body {
+    margin: 40px;
+  }
+  
+  .container {
+      margin: 0 auto;
+      width: 1180px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #efefef;
+    display:grid;
+    grid-template-columns: repeat(12,80px);
+    column-gap: 20px;
+    row-gap: 40px;
+  }
+  
+  .box {
+    background-color: #5f5f5e;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .logo_1{
+    grid-column: 1/2;
+  }
+  
+  .welcome {
+    grid-column: 2/10;
+  }
+  
+  .box3 {
+    grid-column: 11/-1;
+  }
+  
+  .box4 {
+  grid-column: 1/-1;
+  }
+  
+  .box5 {
+    grid-column: 3/11;
+  }
