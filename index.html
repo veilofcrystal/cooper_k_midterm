@@ -7,8 +7,8 @@
 
         <meta charset="UTF-8">
 
-        
         <link rel="stylesheet" href="css/styles.css">
+
         <link rel="stylesheet" href="css/main.css">
 
         <title>Welcome to Crafting Creations!</title>
@@ -20,37 +20,36 @@
 
     <body>
         
-        <div class="container">
-        <header>
+        
+        <header class="grid-con">
+           
+            <div class="col-start-1 col-span-1"><img src="images/crafting_connections_logo.png" class="logo_1"></div>
+       
 
-           <h1>Minecraft for life</h1>
+            <div class="col-start-3 col-span-9">
+             <h2 class="welcome">Crafting Connections:<br> Your Ultimate Minecraft User Portal</h2>
+            </div>
+            
+           <div class="col-start-12 colspan 1" ><img src="images/crafting_connections_logo.png" class="logo2">
+            </div>
+            
+        
+                <div class="col-start-1 col-span-3">
+                    <img id="image1" alt="minecraft_feild_with_windmill" src="images/field.jpg">
+                </div>
+
+                <div class="col-start-5  col-span-3" >
+                    <img id="image2"  alt="minecraft_house_on_hill" src="images/house_hill.jpg">
+                </div>
+
+                <div class="col-start-10  col-span-3">
+                    <img id="image3" alt="minecraft_castle" src="images/castle.jpg" > 
+                </div>
            
           
-    
-            <img src="images/crafting_connections_logo.png" alt="crafting_connections_logo" class="logo_1" width=150 height=125>
-            
-            <div class="welcome">
-             <h2>Crafting Connections: Your Ultimate Minecraft User Portal</h2>
-            </div>
-            
-           
-            <img src="images/crafting_connections_logo.png"  alt="crafting_connections_logo" class="logo2" width=150 height=125>
-        </div>
-
-            
-
-            <div class="image_carousel">
-
-                <img id="image1" alt="minecraft_feild_with_windmill" src="images/field.jpg" height=240 width=420>
-                
-                <img id="image2" alt="minecraft_house_on_hill" src="images/house_hill.jpg" height=240 width=420>
-    
-                <img id="image3" alt="minecraft_castle" src="images/castle.jpg" height= 240 width=420> 
-            
-            </div>
-    
-            <div >
-            <nav id="main-nav">
+       
+            <div class="col-start-1">
+            <nav id="main-nav" class="col-start-1">
                 <ul>
                 <li class="navbutton">
                 <a href="login.html"><img src="images/log_in.png" alt="login_logo" id="log_in">Log in!</a>
@@ -81,111 +80,135 @@
             </div>
         <br>
 
-        <div id="search_bar">
-            <input type="search">
-            <p id="search_text">The world is your oyster, it's time to get creative! Search here for awesome build types, or to find other users!</p>
+        <div  id="search_bar" class="col-span-full">
+            <input type="search" class="col-start-1 col-span-3">
+            <p class="col-start-5" id="search_text">The world is your oyster, it's time to get creative! Search here for awesome build types, or to find other users!</p>
             
             
         </div>  
 
-        </header>
-
+    </header>
+     
         
 <br>
 
-    <section class="signup_portal">  
+    <section class="grid-con">
 
-    <h3>Sign up or log in!</h3>        
-    <img src="images/house1.jpg" alt="minecraft_cabin_at_night" class="house1">    
-
-        <div class="signup" ><a href="signup.html">Sign Up!</a>
+    <div><h3>Sign up or log in!</h3></div>   
+    
+        <div id="house1" class="col-start-1">
+        <img src="images/house1.jpg" alt="minecraft_cabin_at_night" class="house1">    
+        </div>
+        
+        <div id="house2" class="col-start-11  col-span-2" >
+            <img src="images/house2.png" alt="minecraft_modern_house" class="house2">
+          </div>
+     
+        <div class="col-start-4 col-span-1 row-start-2" id="signup" ><a href="signup.html">Sign Up!</a></div>
 
         
+        <div class="col-start-4 col-span-1 row-start-2"id="arrow-image">
         <img src="images/arrow.png" alt="black&white_arrow" class="arrow" >
-
-
+        </div>
+                
+        
+        <div class="col-start-4 col-span-1 row-start-3  ">
         <p class="join_para">Sign up and join a world full of creativity!</p>
         </div>
 
 
-        <div class="smiley_bot">
+        <div class="col-start-5 col-span-4 row-start-2" id="smiley_bot">
 
-        <p class="smiley_para">The sign up tab for the Minecraft User Portal is an exciting feature that allows you to join a community of passionate minecraft players!</p>
+                <div class="col-start-5 col-span-4 row-start-2">
+                    <p class="smiley_para">The sign up tab for the Minecraft User Portal is an exciting feature 
+                    that allows you to join a community of passionate minecraft players!</p>
+                </div>
         
-        <img  alt="smileyface" src="images/">
+    
+                <div class="col-start-5  col-span-2 row-start-2">
+                <img  alt="smileyface" src="images/smiley.svg">
+                </div>
 
         </div>
 
 
-        <div class="login2">
-
-        <a  href="login.html">Already a user</a>
-
-
-        <img alt="user_icon_with_checkmark" src="images/">
-
-
-        <p class="login-para">Log into a pre-existing account and rejoin the fun!</p>
-        </div>
-
+        
     
-        <img src="images/house2.png" alt="minecraft_modern_house" class="house2">
-    
+                <div class="col-start-9 col-span-2 row-start-2">
+                 <a  href="login.html">Already a user</a>
+                </div>
+                
+                <div class="col-start-9 col-span-2 row-start-2">
+                 <img alt="user_icon_with_checkmark" src="images/already_user.svg">
+                </div>
+
+                <div class="col-start-9  col-span-2 row-start-3">
+                  <p class="login-para">Log into a pre-existing account and rejoin the fun!</p>
+                </div>
+        
+       
+
+       
     </section>
-
-    <footer>
-        <nav class="foot_nav">
-        <ul>
-            <li>
-                <a>Tiktok</a>
-            </li>
-        </ul>
-
-        <ul>
-            <li>
-                <a>Facebook</a>
-            </li>
-        </ul> 
         
-        <ul>
-            <li>
-                <a> About Us</a>
-            </li>
-        </ul>
+            <footer class="container">
+            
+                <nav class="foot_nav">
+                    <ul>
+                        <li>
+                            <a>Tiktok</a>
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li>
+                        <a>Facebook</a>
+                        </li>
+                    </ul> 
         
-        <ul>
-            <li>
-                <a>FAQ</a>
-            </li>
-        </ul>
-        <ul>
-            <li>
-                <a>Our Policy</a>
-            </li>
-        </ul>
+                    <ul>
+                        <li>
+                        <a> About Us</a>
+                        </li>
+                    </ul>
+        
+                    <ul>
+                         <li>
+                        <a>FAQ</a>
+                        </li>
+                    </ul>
+                    
+                    <ul>
+                        <li>
+                         <a>Our Policy</a>
+                        </li>
+                     </ul>
 
-        <ul>
-            <li>
-                <a href="contact.html">Contact Us</a>
-            </li>
-        </ul>
+                    <ul>
+                        <li>
+                        <a href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
 
-        <ul>
-            <li>
-                <a>Instagram</a>
-            </li>
-        </ul>
+                    <ul>
+                        <li>
+                        <a>Instagram</a>
+                        </li>
+                    </ul>
 
-        <ul>
-            <li>
-                <a>Twitter</a>
-            </li>
-        </ul>
-</nav>
+                    <ul>
+                        <li>
+                        <a>Twitter</a>
+                        </li>
+                    </ul>
 
-<h3> &copy; Copyright - Crafting Connections Inc.</h3>
+                </nav>
+
+
+                <h3> &copy; Copyright - Crafting Connections Inc.</h3>
     </footer>
-   
+
+</div>
 
     </body>
 

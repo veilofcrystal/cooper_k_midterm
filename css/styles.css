@@ -5,26 +5,17 @@ h1, h3{
 body {
     background-color: rgb(1, 29, 15);
 }
-
-.flex-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: stretch;
-    background-color: rgb(165, 99, 42);
-    border: 5px solid black;
+    
+header {
+    background-color:   rgb(151, 81, 24);
 }
-
 .welcome {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
-    font-size: larger;
+    font-size: xx-large;
     letter-spacing: 2px;
-    position: absolute;
-    margin: 4px;
-    top: 3%;
-    left: 12.2%;
-    right: 12%;
+    margin-right: 20px;
+    margin-top: 40px;
     animation-name: fade;
     animation-duration: 4s;
     animation-timing-function: ease-in-out;
@@ -41,39 +32,37 @@ body {
 
 .logo_1 {
     border: 3px solid black;
+    width: 155px;
+    height: 150px;
+      }
+      
+      
    
-}
 .logo2 {
     border: 3px solid black;
+    width: 155px;
+    height: 150px;
 }
 
-.image_carousel {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: stretch;  
-    background-color: black;
-    border: 3px solid black;
-    padding: 10px;
+
+#image1, #image3 {
+   
+    border: 2px solid green;
+   text-align: center;
+   height: 200px;
+   width: 357px;
     
 }
 
-#image1, #image2, #image3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: stretch;
+#image2 {
     border: 2px solid green;
-    margin: 5px;
+    text-align: center;
+    height: 200px;
+    width: 457px;
 }
 
-#main-nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background-color: green;
-    height: 60px;   
+#image-carousel {
+    margin: 10px;   
 }
 
 #log_in {
@@ -83,12 +72,21 @@ body {
 }
 
 .navbutton {
-    
+    width:200px;
+    margin-right: 20px;
     padding: 15px;
     background-color: green;
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: large;
+}
+
+#main-nav {
+    width: 1240px;
+    height: 50px;    
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: green;
 }
     
 li {
@@ -96,25 +94,25 @@ li {
 }
 
 #search_bar{
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: center;
     border-radius: 15px;
     background-color: green;
-    width: 1310px;
-    height: 40px;
+    width: 1260px;
+    height: 55px;
     border: 5px;
-    padding-left: 20px;
 }
 
 #search_text {
     color: black;
-    padding-left: 10px;
+    margin-bottom: 10px;
+    width: 800px;
+    text-align: center;
+    float:right;
+    margin-right: 50px;
  }
 
 input {
-    width: 460px;   
+    width: 350px;  
+    margin: 17px; 
 }
 
 .signup_portal {
@@ -124,19 +122,23 @@ input {
 
 }
 
-.house1, .house2 {
+#house1, #house2 {
     border: 3px solid black;
-    height: 550px;
+    height: 500px;
     width: 250px;
 }
 
+.house1, .house2 {
+    height: 500px;
+    width: 250px;
+}
 p, a {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: black;
     font-size: large;
     background-color: green;
     text-decoration: none;
-    padding: 8px;
+    padding: 0px;
 }
 
 a:hover {
@@ -149,7 +151,10 @@ a:hover {
     justify-content: center;
     margin: 20px;
 }
-
+footer{
+    background-color: green;
+    position: sticky;
+}
 .foot_nav {
     display: flex;
     flex-direction: row;
