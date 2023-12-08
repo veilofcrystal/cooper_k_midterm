@@ -9,7 +9,7 @@
 
         <link rel="stylesheet" href="css/styles.css">
 
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/grid.css">
 
         <title>Welcome to Crafting Creations!</title>
 
@@ -23,65 +23,65 @@
         
         <header class="grid-con">
            
-            <div class="col-start-1 col-span-1"><img src="images/crafting_connections_logo.png" class="logo_1"></div>
+            <div class="col-start-1 col-span-1 row-start-1"><img src="images/crafting_connections_logo.png" alt="crafting connections logo" class="logo_1"></div>
        
 
-            <div class="col-start-3 col-span-9">
+            <div class="col-start-3 col-span-9 row-start-1">
              <h2 class="welcome">Crafting Connections:<br> Your Ultimate Minecraft User Portal</h2>
             </div>
             
-           <div class="col-start-12 colspan 1" ><img src="images/crafting_connections_logo.png" class="logo2">
+           <div class="col-start-12 colspan 1 row-start-1" ><img src="images/crafting_connections_logo.png" alt="crafting connections logo" class="logo2">
             </div>
             
         
-                <div class="col-start-1 col-span-3">
+                <div class="col-start-1 col-span-3 row-start-3">
                     <img id="image1" alt="minecraft_feild_with_windmill" src="images/field.jpg">
                 </div>
 
-                <div class="col-start-5  col-span-3" >
+                <div class="col-start-5  col-span-3 row-start-3" >
                     <img id="image2"  alt="minecraft_house_on_hill" src="images/house_hill.jpg">
                 </div>
 
-                <div class="col-start-10  col-span-3">
+                <div class="col-start-10  col-span-3 row-start-3">
                     <img id="image3" alt="minecraft_castle" src="images/castle.jpg" > 
                 </div>
            
           
        
-            <div class="col-start-1">
-            <nav id="main-nav" class="col-start-1">
+            <div class="col-start-1 row-start-5">
+            <nav id="main-nav" class="col-start-1 ">
                 <ul>
                 <li class="navbutton">
-                <a href="login.html"><img src="images/log_in.png" alt="login_logo" id="log_in">Log in!</a>
+                <a href="#"><img src="images/log_in.png" alt="login_logo" id="log_in">Log in!</a>
                 </li>
                 <li class="navbutton">
-                <a href="build.html">Build Ideas</a>
+                <a href="#">Build Ideas</a>
                 </li>
                 <li class="navbutton">
-                <a href="friends.html">Find Friends</a>
+                <a href="#">Find Friends</a>
                 </li>
                 <li class="navbutton">
-                <a href="competitions.html">Competitions</a>
+                <a href="#">Competitions</a>
                 </li>
                 <li class="navbutton">
-                <a href="charts.html">Charts</a>
+                <a href="#">Charts</a>
                 </li>
                 <li class="navbutton">
-                <a href="awards.html">Awards</a>
+                <a href="#">Awards</a>
                 </li>
                 <li class="navbutton">
-                <a href="gallery.html">Gallery</a>
+                <a href="#">Gallery</a>
                 </li>
                 <li class="navbutton">
-                <a href="news.html">Minecraft News</a>
+                <a href="#">Minecraft News</a>
                 </li>
                 </ul>
             </nav>
             </div>
         <br>
 
-        <div  id="search_bar" class="col-span-full">
-            <input type="search" class="col-start-1 col-span-3">
+        <div  id="search_bar" class="col-span-full row-start-6">
+            <input type="search" class="col-start-1 col-span-3 row-start-6">
             <p class="col-start-5" id="search_text">The world is your oyster, it's time to get creative! Search here for awesome build types, or to find other users!</p>
             
             
@@ -92,58 +92,59 @@
         
 <br>
 
-    <section class="grid-con">
+    <section class="grid-con" id="signup-portal">
 
-    <div><h3>Sign up or log in!</h3></div>   
+    <h3>Sign up or log in!</h3>
     
-        <div id="house1" class="col-start-1">
+        <div id="house1" class="col-start-1 row-start-1">
         <img src="images/house1.jpg" alt="minecraft_cabin_at_night" class="house1">    
         </div>
         
-        <div id="house2" class="col-start-11  col-span-2" >
+        <div id="house2" class="col-start-11  col-span-2 row-start-1" >
             <img src="images/house2.png" alt="minecraft_modern_house" class="house2">
           </div>
      
         <div class="col-start-4 col-span-1 row-start-2" id="signup" ><a href="signup.html">Sign Up!</a></div>
 
         
-        <div class="col-start-4 col-span-1 row-start-2"id="arrow-image">
-        <img src="images/arrow.png" alt="black&white_arrow" class="arrow" >
+        <div class="col-start-4 col-span-1 row-start-3">
+        <img src="images/arrow.svg" alt="black&white_arrow" id="arrow-svg" >
         </div>
                 
         
-        <div class="col-start-4 col-span-1 row-start-3  ">
-        <p class="join_para">Sign up and join a world full of creativity!</p>
+        <div class="col-start-4 col-span-1 row-start-4">
+        <p id="join-para">Sign up and join a world full of creativity!</p>
         </div>
 
 
-        <div class="col-start-5 col-span-4 row-start-2" id="smiley_bot">
+  
 
-                <div class="col-start-5 col-span-4 row-start-2">
-                    <p class="smiley_para">The sign up tab for the Minecraft User Portal is an exciting feature 
+                <div class="col-start-6 col-span-4 row-start-3">
+                    <p id="smiley_para">The sign up tab for the Minecraft User Portal
+                        is an exciting feature 
                     that allows you to join a community of passionate minecraft players!</p>
                 </div>
         
     
-                <div class="col-start-5  col-span-2 row-start-2">
-                <img  alt="smileyface" src="images/smiley.svg">
+                <div class="col-start-6  col-span-2 row-start-4">
+                <img  alt="smileyface" src="images/smiley.svg" id="smiley">
                 </div>
 
-        </div>
+       
 
 
         
     
-                <div class="col-start-9 col-span-2 row-start-2">
-                 <a  href="login.html">Already a user</a>
+                <div id="a-user" class="col-start-9 col-span-2 row-start-2">
+                 <a  href="#" >Already a user</a>
                 </div>
                 
-                <div class="col-start-9 col-span-2 row-start-2">
-                 <img alt="user_icon_with_checkmark" src="images/already_user.svg">
+                <div class="col-start-9 col-span-2 row-start-3">
+                 <img alt="user_icon_with_checkmark" src="images/already_user.svg" id="user-svg">
                 </div>
 
-                <div class="col-start-9  col-span-2 row-start-3">
-                  <p class="login-para">Log into a pre-existing account and rejoin the fun!</p>
+                <div class="col-start-9  col-span-2 row-start-4">
+                  <p id="login-para">Log into a pre-existing account and rejoin the fun!</p>
                 </div>
         
        
@@ -151,52 +152,38 @@
        
     </section>
         
-            <footer class="container">
+            <footer class="grid-con-2 row-start-1">
             
-                <nav class="foot_nav">
+                <nav class="col-span-full row-start-1">
                     <ul>
                         <li>
                             <a>Tiktok</a>
                         </li>
-                    </ul>
-
-                    <ul>
+            
                         <li>
                         <a>Facebook</a>
                         </li>
-                    </ul> 
-        
-                    <ul>
+            
                         <li>
                         <a> About Us</a>
                         </li>
-                    </ul>
-        
-                    <ul>
+                
                          <li>
                         <a>FAQ</a>
                         </li>
-                    </ul>
                     
-                    <ul>
                         <li>
                          <a>Our Policy</a>
                         </li>
-                     </ul>
-
-                    <ul>
+                     
                         <li>
                         <a href="contact.html">Contact Us</a>
                         </li>
-                    </ul>
-
-                    <ul>
+            
                         <li>
                         <a>Instagram</a>
                         </li>
-                    </ul>
-
-                    <ul>
+                
                         <li>
                         <a>Twitter</a>
                         </li>
@@ -205,10 +192,12 @@
                 </nav>
 
 
-                <h3> &copy; Copyright - Crafting Connections Inc.</h3>
+                
+<h4 id="copyright" class="col-span-full row-start-2"> &copy; Copyright - Crafting Connections Inc.</h4>
+   
     </footer>
 
-</div>
+
 
     </body>
 
